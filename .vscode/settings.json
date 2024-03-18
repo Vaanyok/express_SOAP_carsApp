@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/2e9c4ef2-7aac-42ef-98a9-98d9f472c206/resourceGroups/USMBECarsApp_group/providers/Microsoft.Web/sites/USMBECarsApp",
+    "appService.deploySubpath": "."
+}
