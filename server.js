@@ -10,6 +10,11 @@ app.use(cors());
 
 app.use(express.json());
 
+app.get('/', (req, res) => {
+  res.body("SERVEUR EN FONCTIONNEMENT")
+}
+);
+
 app.get('/calculateHour', (req, res) => {
     console.log(req.query.numbers);
     numbers = req.query.numbers;
